@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightgreen;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Align items at start and end */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999; /* Ensure footer is above other elements */
+}
+
+section#contact {
+    margin-bottom: 70px; /* Adjust margin to create space for the footer */
+}
+
+
+.project {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+
+header img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image round */
+    margin-left: 20px; /* Push the image to the right */
+}
+
+.header-content {
+    flex: 1; /* Take up remaining space */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-details table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.contact-details table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-details table img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.contact-details table a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-details table a:hover {
+    color: #666;
+}
+
+
+
+
